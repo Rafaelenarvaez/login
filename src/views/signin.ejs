@@ -1,0 +1,19 @@
+<%- layout('layouts/main') %>
+<div class="row">
+  <div class="col-md-4 offset-med-4">
+    <div class="card-header">
+      <h3>Inicio de sesion</h3>
+        </div>
+          <div class="card">
+            <card-body>
+              <form action="/signin" method="POST">
+                 <input type="email" name="email" placeholder="Email">
+                 <input type="password" name="password" placeholder="Password">
+                  <button type="submit">
+                   Iniciar
+                  </button>
+              </form>
+          </card-body>
+        </div>
+    </div>
+</div>
